@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Barlow-Light";
+  src:
+    url("font/Barlow-Light.otf") format("opentype");
+}
+
+div {
+    color:#7B8A92;
+    background-color: rgb(241, 241, 241);
+}
+
+div .right{
+    padding: 50px;
+}
+
+img, div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box {
+  width: 800px;
+  height: 500px;
+  background-color: #EFF6FF;
+  padding: 50px;
+}
+
+.box div{
+  width: 320px;
+  height: 500px;
+}
+
+h1 {
+color: #7B8A92;
+font-family: "Barlow-Light";
+font-size: 16px;
+margin: 0px 0px 0px 50px;
+}
+
+p {
+color: #2A4A5C;
+font-family: 
+font-size: 12px;
+margin: 0px 0px 0px 50px
+}
+
+.fb {
+  font-size: 10px;
+  height: 20px;
+  background-color: #255A9B;
+}
+
+.regbutton{
+  display: flex;
+  gap: 10px
+}
+
+.linkedin {
+  font-size: 10px;
+  height: 20px;
+  background-color: #255A9B;
+}
+
+p2{
+
+}
+
+*{
+ font-family: "Barlow-Light";
+}
