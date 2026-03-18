@@ -9,15 +9,18 @@ div {
     background-color: rgb(241, 241, 241);
 }
 
-div .right{
+/* div .right{
     padding: 50px;
-}
+} */
 
 img, div{
     display: inline-block;
     vertical-align: middle;
 }
-
+.box .right{
+  width: 380px;
+  height: 500px;
+}
 .box {
   width: 800px;
   height: 500px;
@@ -27,21 +30,28 @@ img, div{
 
 .box div{
   width: 320px;
-  height: 500px;
+  height: 40px;
 }
 
 h1 {
-color: #7B8A92;
+color: #393939;
 font-family: "Barlow-Light";
-font-size: 16px;
-margin: 0px 0px 0px 50px;
+font-size: 15px;
+margin: 50px 0px 0px 50px;
+}
+
+h2 {
+color: #393939;
+font-family: "Barlow-Light";
+font-size: 12px;
+margin: 00px 0px 0px 50px;
 }
 
 p {
 color: #2A4A5C;
-font-family: 
-font-size: 12px;
-margin: 0px 0px 0px 50px
+font-family: "Barlow-Light";
+font-size: 10px;
+margin: 5px 0px 20px 50px;
 }
 
 .fb {
@@ -52,7 +62,8 @@ margin: 0px 0px 0px 50px
 
 .regbutton{
   display: flex;
-  gap: 10px
+  gap: 10px;
+  margin: 0px 0px 0px 50px;
 }
 
 .linkedin {
@@ -61,10 +72,32 @@ margin: 0px 0px 0px 50px
   background-color: #255A9B;
 }
 
-p2{
-
+.OR {
+  font-size: 10px;
+  margin: 0px 0px 0px 50px;
+  display: flex;
+  gap: 10px
 }
 
+.emailphone {
+    display: flex;
+  gap: 10px;
+  margin: 0px 0px 0px 50px;
+}
+
+.choice-containers {
+  margin: 0px 0px 0px 50px;
+  display: flex;
+}
+
+.label-text {
+  font-size: 10px;
+}
+
+.plashka {
+  margin: 0px 0px 0px 50px;
+  font-size: 10px;
+}
 *{
  font-family: "Barlow-Light";
 }
