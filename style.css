@@ -17,41 +17,42 @@ img, div{
     display: inline-block;
     vertical-align: middle;
 }
+
+.linkedin {
+  color: white;
+}
 .box .right{
-  width: 380px;
+  width: 400px;
   height: 500px;
+  padding: 50px;
 }
 .box {
-  width: 800px;
-  height: 500px;
+  width: 900px;
+  height: 600px;
   background-color: #EFF6FF;
   padding: 50px;
 }
 
 .box div{
   width: 320px;
-  height: 40px;
 }
 
 h1 {
 color: #393939;
 font-family: "Barlow-Light";
 font-size: 15px;
-margin: 50px 0px 0px 50px;
 }
 
 h2 {
 color: #393939;
 font-family: "Barlow-Light";
 font-size: 12px;
-margin: 00px 0px 0px 50px;
 }
 
 p {
 color: #2A4A5C;
 font-family: "Barlow-Light";
 font-size: 10px;
-margin: 5px 0px 20px 50px;
 }
 
 .fb {
@@ -63,7 +64,6 @@ margin: 5px 0px 20px 50px;
 .regbutton{
   display: flex;
   gap: 10px;
-  margin: 0px 0px 0px 50px;
 }
 
 .linkedin {
@@ -74,19 +74,25 @@ margin: 5px 0px 20px 50px;
 
 .OR {
   font-size: 10px;
-  margin: 0px 0px 0px 50px;
   display: flex;
-  gap: 10px
+  gap: 10px;
+  margin: 20px 0;
 }
 
+/* .input {
+  убрать рамки
+} */
+
+.emailphone > div {
+  border: 1px solid grey;
+}
 .emailphone {
     display: flex;
   gap: 10px;
-  margin: 0px 0px 0px 50px;
+
 }
 
 .choice-containers {
-  margin: 0px 0px 0px 50px;
   display: flex;
 }
 
@@ -95,9 +101,17 @@ margin: 5px 0px 20px 50px;
 }
 
 .plashka {
-  margin: 0px 0px 0px 50px;
   font-size: 10px;
+  max-width: 200px;
+  background: white;
+  padding: 5px;
 }
+
+.plashka > p{
+  margin: 0px
+}
+
 *{
  font-family: "Barlow-Light";
+ box-sizing: border-box;
 }
