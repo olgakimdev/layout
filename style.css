@@ -86,8 +86,8 @@ input {
 }
 
 .emailphone > div {
-  border: 1px solid grey;
-  border: none;
+  /* border: 1px solid grey;
+  border: none; */
   font-size: 10px;
 }
 .emailphone {
