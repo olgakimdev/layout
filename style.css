@@ -6,104 +6,127 @@
 
 div {
     color:#7B8A92;
-    background-color: rgb(241, 241, 241);
-}
-
-img, div{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.linkedin {
-  color: white;
-}
-
-.fb {
-  color: white;
+    background-color: #FFFFFF;
 }
 
 .box .right{
   width: 400px;
-  height: 500px;
-  padding: 30px 40px 40px 40px
-}
-.box {
-  width: 900px;
   height: 600px;
-  background-color: #EFF6FF;
-  padding: 50px;
+  padding: 50px 40px 40px 40px
 }
 
-.box div{
-  width: 320px;
+.box .left{
+  position: relative;
+  display: inline-block;
+}
+  
+.main-image {
+  display: block;
+  width: 450px;
+  height: 600px;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 100px;
+  height: auto;
+  z-index: 10;
+}
+
+.box {
+  width: 950px;
+  height: 700px;
+  background-color: #EFF6FF;
+  padding: 50px;
+  display: flex;
 }
 
 h1 {
-color: #393939;
+color: #7B8A92;
 font-family: "Barlow-Light";
-font-size: 15px;
+font-size: 16px;
 }
 
 h2 {
-color: #393939;
+color: #7B8A92;
 font-family: "Barlow-Light";
 font-size: 12px;
-padding: 15px 0px 0px 0px;
+padding: 10px 0px 0px 0px;
 }
 
 p {
 color: #2A4A5C;
 font-family: "Barlow-Light";
 font-size: 10px;
+padding-top: 2px;
+}
+
+.regbutton {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0px 0px;
 }
 
 .fb {
-  font-size: 10px;
-  height: 20px;
   background-color: #255A9B;
-}
-
-.regbutton{
-  display: flex;
-  gap: 10px;
 }
 
 .linkedin {
+  background-color: #0076B6;
+}
+
+.linkedin, .fb {
+  color: white;
   font-size: 10px;
-  height: 20px;
-  background-color: #255A9B;
+  height: 25px;
+  width: 150px;
+  border: none;
+  border-radius: 1px;
 }
 
 .OR {
   font-size: 10px;
   display: flex;
-  gap: 10px;
-  margin: 20px 0px 10px 0px;
+  align-items: center;
+  gap: 5px;
+  margin: 20px 0px 20px 50px;
+}
+
+.decorate-lines {
+  width: 80%;
+  margin: 10px;
+  background-color: lightgray;
+  height: 1px;
+  width: 80px;
 }
 
 input {
   border: none;
 }
 
-.emailphone > div {
-  /* border: 1px solid grey;
-  border: none; */
+.email-phone > div {
+  border: 1px solid rgb(241, 241, 241);
   font-size: 10px;
+  background: white;
+  color: #AFAFAF
 }
-.emailphone {
+.email-phone {
   display: flex;
   gap: 10px;
-
+  color: #AFAFAF
 }
 
 .choice-containers {
   display: flex;
+  padding: 10px 0px; 
 }
 
 .choice-item {
   display: flex;
   align-items: center;
-  padding: 10px 5px 20px;
+  padding: 10px 5px;
 }
 
 input[value="1"]:checked {
@@ -118,22 +141,24 @@ input[value="1"]:checked {
   font-size: 10px;
   max-width: 200px;
   background: white;
-  padding: 2px 10px;
+  padding: 10px 10px;
   border-radius: 3px;
   box-shadow: 0px 0px 8px 2px rgba(34, 60, 80, 0.19);
 }
 
 .checkbox {
   font-size: 9px;
-  padding: 20px 5px;
+  padding: 20px 5px 30px 0;
 }
 
-.createaccount {
+.create-account {
   border: none;
   background-color: #3698FB;
   color: #ffffff;
-  font-size: 10px;
-  padding: 10px 40px;
+  font-size: 10px; 
+  font-weight: bold;
+  height: 30px;
+  width: 160px;
   border-radius: 3px;
 }
 
